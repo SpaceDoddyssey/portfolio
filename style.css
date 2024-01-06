@@ -7,6 +7,29 @@ body {
         / 33.33vw 33.33vw 33.33vw;
     text-align: center;
 }
+
+.project {
+    display: grid;
+    grid-template:
+        "col1 col2" 1fr
+        / 25vw 70vw;
+    text-align: left;
+    padding: 20px;
+    align-items: center;
+}
+.project img {
+    width: 100%;
+}
+.project-description {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.project-title {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .shortcuts {
     position: absolute;
     text-align: left;
