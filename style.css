@@ -7,7 +7,9 @@ body {
         / 33.33vw 33.33vw 33.33vw;
     text-align: center;
 }
-
+a {
+    font-weight: bold;
+}
 .project {
     display: grid;
     grid-template:
