@@ -2,9 +2,8 @@
 body {
     font-family: 'Montserrat', Regular;
     background-color: #83BCFF;
-    grid-template:
-        "col1 col2 col3" 1fr
-        / 33.33vw 33.33vw 33.33vw;
+    background-image: url(/images/background.png);
+    background-repeat: repeat;
     text-align: center;
 }
 a {
@@ -38,8 +37,9 @@ a {
     font-size: 24px;
     padding-top: 20px;
 }
-.name {
-    font-size: 64px;
+span[id="MyName"] {
+    font-family: 'Georgia';
+    font-size: 48px;
     font-weight: 900;
 }
 .contact {
@@ -47,8 +47,10 @@ a {
     font-weight: normal;
 }
 .section-header {
+    text-decoration: underline;
+    font-style: bold;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
 }
 .subheader {
     font-size: 24px;
@@ -65,4 +67,9 @@ a {
     content: "";
     display: table;
     clear: both;
+}
+span[id="image-credit"] {
+    font-size: 8px;
+    position: absolute;
+    right: 10px;
 }
