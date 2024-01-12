@@ -40,13 +40,17 @@ span[id="MyName"] {
     font-size: 18px;
     font-weight: normal;
 }
-div[id="about-me"] {
+#about-me {
+    text-align: left;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .section-header {
     text-decoration: underline;
     font-style: bold;
-    text-align: center;
+    text-align: left;
+    margin-left: 10%;
     font-size: 28px;
 }
 .subheader {
@@ -65,7 +69,7 @@ div[id="about-me"] {
     display: table;
     clear: both;
 }
-span[id="image-credit"] {
+#image-credit {
     font-size: 8px;
     position: absolute;
     right: 10px;
