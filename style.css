@@ -31,12 +31,6 @@ a {
     font-weight: 900;
 }
 
-.shortcuts {
-    position: absolute;
-    text-align: left;
-    font-size: 24px;
-    padding-top: 20px;
-}
 span[id="MyName"] {
     font-family: 'Georgia';
     font-size: 48px;
@@ -45,6 +39,9 @@ span[id="MyName"] {
 .contact {
     font-size: 18px;
     font-weight: normal;
+}
+div[id="about-me"] {
+    margin-top: 20px;
 }
 .section-header {
     text-decoration: underline;
