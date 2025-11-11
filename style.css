@@ -5,7 +5,7 @@ body {
     background-image: url("images/background.png");
     background-repeat: repeat;
     text-align: center;
-    font-size: 17px;
+    font-size: 18px;
 }
 a {
     font-weight: bold;
@@ -28,8 +28,14 @@ a {
 }
 .project-title {
     font-family: 'Franklin Gothic Medium';
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 900;
+}
+.project-subtitle {
+    font-family: 'Franklin Gothic Medium';
+    color: #606060;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 span[id="MyName"] {
